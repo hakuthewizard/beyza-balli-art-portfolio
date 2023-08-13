@@ -7,6 +7,7 @@ import ArtworksFrame from '@/components/ArtworksFrame'
 const Home = () => {
   return (
     <>
+    <title>Beyza Balli Art Portfolio</title>
     <div className={styles.main}>
      <Navbar/>
      <div className={styles.mainContent}>

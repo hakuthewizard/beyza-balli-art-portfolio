@@ -7,10 +7,13 @@ const ArtworksFrame = () => {
   const [openImage, setOpenImage] = useState(null);
 
   const artworks = [
-
+    { imageUrl: '/creativenights.jpg', name: 'Creative Nights'},
+    { imageUrl: '/thewalls.jpeg' , name: 'Through the Walls' },
+    { imageUrl: '/spillways.png' , name: 'Spillways' },
     { imageUrl: '/intoodeep.JPG' , name: 'In Too Deep' },
     { imageUrl: '/areyouready.jpeg', name: 'Are You Ready'},
-    { imageUrl: '/creativenights.jpg', name: 'Creative Nights'},
+    { imageUrl: '/huntersmoon.png' , name: 'Hunters Moon' },
+    
     { imageUrl: '/noodlecat.JPG' , name: 'Noodle Cat'},
     { imageUrl: '/betterinlove.png', name: 'Better when in love'},
     { imageUrl: '/inthedarkness.jpeg' , name: 'In the Darkness'},

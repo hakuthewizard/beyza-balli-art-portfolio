@@ -10,7 +10,7 @@ const Navbar = () => {
             <div className={styles.leftItems}>
                 
                     <Image  className={styles.logo} src="/beyza.png" width={50} height={50} alt="Beyza Ballı Art Portfolio" />
-                    <h3>Beyza Ballı Art Portfolio</h3>
+                    <h3>Beyza B. Art Portfolio</h3>
                
             </div>
             <div className={styles.rightItems}>
@@ -23,7 +23,7 @@ const Navbar = () => {
                 <Link href="https://github.com/hakuthewizard" passHref>
                     <Image src="/github.svg" alt="GitHub" width={32} height={32} className={styles.svg} />
                 </Link>
-                <Link href="https://front-end-portfolio-design-project.vercel.app/" passHref>
+                <Link href="https://beyza-frontend-uidesign-portfolio.vercel.app/" passHref>
                     <div className={styles.devPortfolio}>
                         <button>UI Development Portfolio</button>
                     </div>

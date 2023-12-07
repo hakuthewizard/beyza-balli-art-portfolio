@@ -10,7 +10,7 @@ const Navbar = () => {
             <div className={styles.leftItems}>
                 
                     <Image  className={styles.logo} src="/beyza.png" width={50} height={50} alt="Beyza Ballı Art Portfolio" />
-                    <h3>Beyza Ballı Art Portfolio</h3>
+                    <h3>Beyza B. Art Portfolio</h3>
                
             </div>
             <div className={styles.rightItems}>
